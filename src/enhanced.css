@@ -1,0 +1,19 @@
+/* Unified visual polish for every legacy page. Loaded after page-specific styles. */
+.login-page,.track-page,.vd-page,.dashboard-page,.grievance-page,.notices-page,.help-page{font-family:Arial,Helvetica,sans-serif}
+.login-topbar,.track-topbar{background:#f8fafb!important;border-top:3px solid #f2b51d!important;border-bottom:1px solid #dce5eb!important}
+.login-header,.track-header{background:#fff!important;border-bottom:1px solid #d8e1e8!important;box-shadow:none!important}
+.login-card,.track-card,.track-status-card,.track-empty-card,.dashboard-card,.dashboard-section,.vd-panel,.vd-summary,.form-card,.ticket-card{border:1px solid #d6e0e7!important;border-radius:2px!important;box-shadow:0 5px 16px rgba(17,54,83,.06)!important}
+button,a{transition:background .15s ease,border-color .15s ease,color .15s ease,transform .15s ease}
+input:focus,select:focus,textarea:focus{outline:none!important;border-color:#0b5da7!important;box-shadow:0 0 0 3px rgba(11,93,167,.1)!important}
+/* student dashboard */
+.dashboard-page{background:#f2f6f9!important}.dashboard-header{background:#fff!important;border-bottom:1px solid #d7e1e8!important}.dashboard-main{max-width:1180px!important}.dashboard-welcome{background:linear-gradient(110deg,#073b70,#1167ae)!important;color:#fff!important;border-bottom:4px solid #f2b51d!important}.dashboard-welcome h1,.dashboard-welcome p{color:#fff!important}.dashboard-stat,.dashboard-card{background:#fff!important}.dashboard-stat strong{color:#075b98!important}.dashboard-primary-btn{background:#f2b51d!important;color:#17344e!important}.dashboard-secondary-btn{border-color:#c7d4de!important;color:#075b98!important}
+/* track */
+.track-main{background:#f2f6f9!important}.track-heading h1{color:#173d5e!important}.track-status-card{border-top:4px solid #087b55!important}.track-status-icon{background:#e8f7ef!important;color:#087b55!important}.track-primary-btn{background:#073b70!important}.track-timeline-step.active{border-color:#0a5da7!important}
+/* documents */
+.vd-page{max-width:1180px!important;margin:auto!important;padding:24px 20px 55px!important}.vd-heading{background:#fff!important;border:1px solid #d6e0e7!important;padding:22px!important;box-shadow:0 5px 16px rgba(17,54,83,.05)!important}.vd-kicker{color:#075b98!important;letter-spacing:1px}.vd-summary{background:#fff!important}.vd-summary strong{color:#173d5e!important}.vd-panel-head h2,.vd-precheck h2{color:#173d5e!important}.vd-primary{background:#073b70!important}.vd-secondary{border:1px solid #c7d4de!important;background:#fff!important;color:#075b98!important}
+/* grievance */
+.grievance-grid{max-width:1180px!important}.form-card h2,.ticket-card h2{color:#173d5e!important}.ticket-status{background:#edf8f4!important;border-color:#c8e6da!important}.ticket-status b{color:#087b55!important}
+/* login */
+.login-main{background:linear-gradient(180deg,#f2f6f9,#eaf1f5)!important}.login-card{border-top:4px solid #073b70!important}.login-card-heading h1{color:#173d5e!important}.login-submit,.login-button{background:#073b70!important}.login-register-link{color:#075b98!important}
+/* admin */
+.admin-dashboard-page{background:#edf3f7!important}.admin-dashboard-header{border-top:3px solid #f2b51d!important}.admin-dashboard-title-row h1{color:#173d5e!important}.admin-dashboard-metrics>div{border-top-color:#0b5da7!important;box-shadow:0 3px 10px rgba(17,54,83,.04)}.admin-dashboard-workspace{gap:14px}.admin-application-list,.admin-application-detail{box-shadow:0 4px 14px rgba(17,54,83,.05)!important}.admin-application-row.is-selected,.admin-application-row:hover{background:#edf5fb!important}.admin-save-status{background:#073b70!important}.admin-audit-button{color:#075b98!important}
